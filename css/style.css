@@ -79,7 +79,7 @@ body {
   position: relative;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.links__current-link::after {
+.links--current-link::after {
   position: absolute;
   content: "";
   display: block;
@@ -183,6 +183,7 @@ body {
   background-color: var(--light-white);
   border-radius: 4px;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 6px 22px;
 }
 
 .about__card-set {
@@ -289,7 +290,7 @@ img {
   color: var(--brand-color);
   margin: 6px 0 20px 24px;
 }
-.buttons__wszystkie {
+/* .buttons__wszystkie {
   width: 121px;
   height: 38px;
 }
@@ -308,7 +309,7 @@ img {
 .buttons__marketing {
   width: 121px;
   height: 38px;
-}
+} */
 /*===========overlay-portfolio==========*/
 .projects__cover {
   position: relative;

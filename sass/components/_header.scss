@@ -1,0 +1,15 @@
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.header {
+  border: 1px solid #ececec;
+}
+.links {
+  display: flex;
+  margin-left: 80px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  align-items: center;
+  gap: 46px;
+}

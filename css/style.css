@@ -1,50 +1,5 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  list-style: none;
-}
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 
-body {
-  height: 100vh;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400 500 700 900;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.03em;
-  --brand-color: #757575;
-  --main-blue: #2196f3;
-  --dark-gray: #2f303a;
-  --white: #ffffff;
-  --gray: #212121;
-  --light-white: #f5f4fa;
-  --light-gray: #afb1b8;
-}
-.header {
-  border: 1px solid #ececec;
-}
-.container {
-  width: 1200px;
-  margin: auto;
-}
 
-.navigation {
-  display: flex;
-  align-items: center;
-}
-.links {
-  display: flex;
-  margin-left: 80px;
-  margin-top: 32px;
-  margin-bottom: 32px;
-  align-items: center;
-  gap: 46px;
-}
 /*----kontakty--------*/
 .contact {
   display: flex;
